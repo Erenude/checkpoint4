@@ -4,6 +4,7 @@ import "./App.css"
 import Logo from "./components/Logo"
 import ListMovie from "./components/ListMovie"
 import ButtonMore from "./components/ButtonMore"
+import Carousel from "./components/Carousel"
 
 class App extends Component {
   render() {
@@ -17,6 +18,7 @@ class App extends Component {
           To get started, edit <code>src/App.js</code> and save to reload.
         </p>
         <Logo />
+        <Carousel />
         <ListMovie />
         <ButtonMore />
       </div>
