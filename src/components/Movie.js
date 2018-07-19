@@ -5,7 +5,8 @@ import {
   CardText,
   CardImg,
   CardImgOverlay,
-  CardFooter
+  CardFooter,
+  Button
 } from "reactstrap"
 
 const Movie = ({ name, description, image }) => {
@@ -31,6 +32,9 @@ const Movie = ({ name, description, image }) => {
           >
             {description}
           </CardText>
+          <Button outline color="danger" value="delete">
+            Poubelle
+          </Button>
         </CardFooter>
       </Card>
     </div>
