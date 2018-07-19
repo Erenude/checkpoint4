@@ -13,23 +13,25 @@ const Movie = ({ name, description, image }) => {
     <div>
       <Card inverse>
         <CardImg width="25%" src={image} />
-        <CardImgOverlay>
+        <CardImgOverlay />
+        <CardFooter>
           <CardTitle
             style={{
-              fontSize: "2em"
+              fontSize: "2em",
+              color: "black"
             }}
           >
             {name}
           </CardTitle>
           <CardText
             style={{
-              fontSize: "1.5em"
+              fontSize: "1.5em",
+              color: "black"
             }}
           >
             {description}
           </CardText>
-        </CardImgOverlay>
-        <CardFooter />
+        </CardFooter>
       </Card>
     </div>
   )
