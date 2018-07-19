@@ -3,6 +3,7 @@ import logo from "./logo.svg"
 import "./App.css"
 import Logo from "./components/Logo"
 import ListMovie from "./components/ListMovie"
+import ButtonMore from "./components/ButtonMore"
 
 class App extends Component {
   render() {
@@ -17,6 +18,7 @@ class App extends Component {
         </p>
         <Logo />
         <ListMovie />
+        <ButtonMore />
       </div>
     )
   }
